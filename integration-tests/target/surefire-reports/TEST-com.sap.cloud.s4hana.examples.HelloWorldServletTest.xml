@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.sap.cloud.s4hana.examples.HelloWorldServletTest" time="21.265" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="user.country.format" value="DE"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\d045793\address-manager"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\d045793\address-manager"/>
+    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\d045793\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files (x86)\Apache\apache-maven-3.6.0\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Windows\CCM;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Cloud Foundry;C:\Program Files (x86)\Apache\apache-maven-3.6.0\bin;C:\Users\d045793\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="maven.conf" value="C:\Program Files (x86)\Apache\apache-maven-3.6.0\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files (x86)\Apache\apache-maven-3.6.0\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\d045793"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="D045793"/>
+    <property name="java.class.path" value="C:\Program Files (x86)\Apache\apache-maven-3.6.0\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_191\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="user.language.format" value="de"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_191\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp850"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files (x86)\Apache\apache-maven-3.6.0\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp850"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="testService" classname="com.sap.cloud.s4hana.examples.HelloWorldServletTest" time="4.357">
+    <failure message="&#10;Expecting:&#10; &lt;&quot;Hello Ralf!&quot;&gt;&#10;to be equal to:&#10; &lt;&quot;Hello World!&quot;&gt;&#10;ignoring case considerations" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+
+Expecting:
+ <"Hello Ralf!">
+to be equal to:
+ <"Hello World!">
+ignoring case considerations
+	at com.sap.cloud.s4hana.examples.HelloWorldServletTest.testService(HelloWorldServletTest.java:50)
+]]></failure>
+    <system-err><![CDATA[Nov 22, 2018 3:38:40 PM org.apache.tomee.embedded.Container start
+INFO: Starting TomEE from: C:\Users\d045793\address-manager\integration-tests\target\arquillian-working-dir\1\arquillian-apache-tomee
+Nov 22, 2018 3:38:41 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-52901"]
+Nov 22, 2018 3:38:41 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Tomcat
+Nov 22, 2018 3:38:41 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.81
+Nov 22, 2018 3:38:41 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-52901"]
+Nov 22, 2018 3:38:43 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+Nov 22, 2018 3:38:43 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: ********************************************************************************
+Nov 22, 2018 3:38:43 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: OpenEJB http://tomee.apache.org/
+Nov 22, 2018 3:38:43 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Startup: Thu Nov 22 15:38:43 CET 2018
+Nov 22, 2018 3:38:43 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Copyright 1999-2015 (C) Apache OpenEJB/TomEE Project, All Rights Reserved.
+Nov 22, 2018 3:38:43 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Version: 4.7.5
+Nov 22, 2018 3:38:43 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Build date: 20170927
+Nov 22, 2018 3:38:43 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Build time: 12:02
+Nov 22, 2018 3:38:43 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: ********************************************************************************
+Nov 22, 2018 3:38:43 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: openejb.home = C:\Users\d045793\address-manager\integration-tests\target\arquillian-working-dir\1\arquillian-apache-tomee
+Nov 22, 2018 3:38:43 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: openejb.base = C:\Users\d045793\address-manager\integration-tests\target\arquillian-working-dir\1\arquillian-apache-tomee
+Nov 22, 2018 3:38:43 PM org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFO: Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@62c019bb
+Nov 22, 2018 3:38:43 PM org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFO: Succeeded in installing singleton service
+Nov 22, 2018 3:38:43 PM org.apache.openejb.config.ConfigurationFactory init
+INFO: openejb configuration file is 'C:\Users\d045793\address-manager\integration-tests\target\arquillian-working-dir\1\arquillian-apache-tomee\conf\openejb.xml'
+Nov 22, 2018 3:38:44 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+Nov 22, 2018 3:38:44 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+Nov 22, 2018 3:38:44 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.system.apps=false'
+Nov 22, 2018 3:38:44 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.deployments.classpath=false'
+Nov 22, 2018 3:38:44 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating TransactionManager(id=Default Transaction Manager)
+Nov 22, 2018 3:38:44 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating SecurityService(id=Tomcat Security Service)
+Nov 22, 2018 3:38:44 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.servicemanager.enabled=false'
+[main] INFO org.apache.cxf.management.jmx.InstrumentationManagerImpl - registering MBean org.apache.cxf:bus.id=openejb.cxf.bus,type=Bus,instance.id=1028239374: org.apache.cxf.bus.ManagedBus@3d62648d
+[main] INFO org.apache.cxf.management.jmx.InstrumentationManagerImpl - registering MBean org.apache.cxf:bus.id=openejb.cxf.bus,type=Bus,instance.id=1028239374: javax.management.modelmbean.RequiredModelMBean@40085ab3
+[main] INFO org.apache.cxf.management.jmx.InstrumentationManagerImpl - registered org.apache.cxf:bus.id=openejb.cxf.bus,type=Bus,instance.id=1028239374
+[main] INFO com.sap.cloud.sdk.cloudplatform.cache.CacheManager - Successfully invalidated 0 entries in 0 caches.
+[main] WARN com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[main] INFO com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+Nov 22, 2018 3:38:48 PM org.apache.openejb.util.JarExtractor extract
+INFO: Extracting jar: C:\Users\d045793\address-manager\integration-tests\target\arquillian-working-dir\1\arquillian-tomee-app-working-dir\0\009b640b-9225-4017-a3cd-a2e2f615ab7e.war
+Nov 22, 2018 3:38:48 PM org.apache.openejb.util.JarExtractor extract
+INFO: Extracted path: C:\Users\d045793\address-manager\integration-tests\target\arquillian-working-dir\1\arquillian-tomee-app-working-dir\0\009b640b-9225-4017-a3cd-a2e2f615ab7e
+Nov 22, 2018 3:38:48 PM org.apache.tomee.catalina.TomcatWebAppBuilder deployWebApps
+INFO: using default host: localhost
+Nov 22, 2018 3:38:48 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /009b640b-9225-4017-a3cd-a2e2f615ab7e
+Nov 22, 2018 3:38:48 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: C:\Users\d045793\address-manager\integration-tests\target\arquillian-working-dir\1\arquillian-tomee-app-working-dir\0\009b640b-9225-4017-a3cd-a2e2f615ab7e
+[main] INFO com.sap.cloud.sdk.cloudplatform.cache.CacheManager - Successfully invalidated 0 entries in 0 caches.
+[main] WARN com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+[main] INFO com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+Nov 22, 2018 3:38:51 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Default Managed Container, type=Container, provider-id=Default Managed Container)
+Nov 22, 2018 3:38:51 PM org.apache.openejb.config.AutoConfig createContainer
+INFO: Auto-creating a container for bean 009b640b-9225-4017-a3cd-a2e2f615ab7e.Comp1128820786: Container(type=MANAGED, id=Default Managed Container)
+Nov 22, 2018 3:38:51 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Container(id=Default Managed Container)
+Nov 22, 2018 3:38:51 PM org.apache.openejb.core.managed.SimplePassivater init
+INFO: Using directory C:\Users\d045793\address-manager\integration-tests\target\arquillian-working-dir\1 for stateful session passivation
+Nov 22, 2018 3:38:51 PM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "C:\Users\d045793\address-manager\integration-tests\target\arquillian-working-dir\1\arquillian-tomee-app-working-dir\0\009b640b-9225-4017-a3cd-a2e2f615ab7e" loaded.
+Nov 22, 2018 3:38:51 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: C:\Users\d045793\address-manager\integration-tests\target\arquillian-working-dir\1\arquillian-tomee-app-working-dir\0\009b640b-9225-4017-a3cd-a2e2f615ab7e
+Nov 22, 2018 3:38:51 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@62c019bb
+Nov 22, 2018 3:38:52 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+Nov 22, 2018 3:38:52 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+Nov 22, 2018 3:38:52 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+Nov 22, 2018 3:38:52 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFO: All injection points were validated successfully.
+Nov 22, 2018 3:38:52 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 307 ms.
+Nov 22, 2018 3:38:52 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=C:\Users\d045793\address-manager\integration-tests\target\arquillian-working-dir\1\arquillian-tomee-app-working-dir\0\009b640b-9225-4017-a3cd-a2e2f615ab7e)
+[main] INFO com.sap.cloud.sdk.cloudplatform.servlet.RequestContextServletFilter - No RequestContextFactory configured. Falling back to DefaultRequestContextFactory.
+[main] INFO com.sap.cloud.sdk.cloudplatform.servlet.RequestContextListenerChain - Added default listener com.sap.cloud.sdk.cloudplatform.security.AuthTokenRequestContextListener with priority -4.
+[main] INFO com.sap.cloud.sdk.cloudplatform.servlet.RequestContextListenerChain - Added default listener com.sap.cloud.sdk.cloudplatform.connectivity.DestinationsRequestContextListener with priority -1.
+[main] INFO com.sap.cloud.sdk.cloudplatform.servlet.RequestContextListenerChain - Added default listener com.sap.cloud.sdk.cloudplatform.security.user.UserRequestContextListener with priority -3.
+[main] INFO com.sap.cloud.sdk.cloudplatform.servlet.RequestContextListenerChain - Added default listener com.sap.cloud.sdk.cloudplatform.tenant.TenantRequestContextListener with priority -2.
+Nov 22, 2018 3:38:54 PM org.apache.openejb.arquillian.common.TomEEInjectionEnricher getAppContext
+WARNING: Failed to find AppContext for: org.jboss.arquillian.junit.Arquillian$5
+[http-bio-52901-exec-1] INFO com.sap.cloud.s4hana.examples.HelloWorldServlet - I am running!
+]]></system-err>
+  </testcase>
+</testsuite>
